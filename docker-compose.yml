@@ -1,0 +1,9 @@
+services:
+  rag:
+    build: .
+    environment:
+      - KB_DIR=/app/dataset/kb
+      - TOP_K=3
+      - MODEL_NAME=stub-llm-0
+    ports:
+      - "8000:8000"

@@ -1,0 +1,5 @@
+{"id": 1, "q": "Сотрудник забыл доменный пароль. Что делать по шагам?", "expected_doc": "password_reset_policy.md"}
+{"id": 2, "q": "Какой SSID для персонала в магазине и чем шифруется?", "expected_doc": "store_wifi_setup.md"}
+{"id": 3, "q": "Принтер чеков печатает иероглифы. Как исправить?", "expected_doc": "pos_printer_troubleshooting.md"}
+{"id": 4, "q": "У сотрудника часто обрывается VPN. Что проверить в первую очередь?", "expected_doc": "vpn_access_retail.md"}
+{"id": 5, "q": "Как правильно клеить стикеры с Asset Tag и что писать в CMDB?", "expected_doc": "asset_tagging_guidelines.md"}

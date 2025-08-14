@@ -1,0 +1,24 @@
+# Python / build
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+.cache/
+.venv/
+
+# VCS / CI
+.git/
+.github/
+
+# Tests and local artifacts
+.pytest_cache/
+tests/
+
+# Editor
+.vscode/
+.idea/
+*.swp
