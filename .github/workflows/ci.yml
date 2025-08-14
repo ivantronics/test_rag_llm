@@ -27,8 +27,9 @@ jobs:
         run: ruff check . --fix
         continue-on-error: true
 
-      - name: Pytest
-        run: pytest
+      - name: Run tests with pytest
+        run: |
+          PYTHONPATH=. pytest --maxfail=1 --disable-warnings -q
 
       - name: Build Docker image
         run: docker build -t rag-service:ci .
